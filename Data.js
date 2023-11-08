@@ -1,0 +1,158 @@
+const portfolio = [
+    {
+        Tolerance:0,
+        NigerianStocks:18,
+        ForeignStocks:4,
+        TechStocks:2,
+        EmergingStocks:7,
+        NigerianBonds:35,
+        ForiegnBonds:15,
+        Commodities:7,
+        RealEstate:12,
+        TBills:0,
+        Alternative:0
+
+    },
+     {
+        Tolerance:1,
+        NigerianStocks:20,
+        ForeignStocks:5,
+        TechStocks:3,
+        EmergingStocks:7,
+        NigerianBonds:35,
+        ForiegnBonds:6,
+        Commodities:12,
+        RealEstate:12,
+        TBills:0,
+        Alternative:0
+
+    },
+     {
+        Tolerance:2,
+        NigerianStocks:23,
+        ForeignStocks:5,
+        TechStocks:4,
+        EmergingStocks:7,
+        NigerianBonds:35,
+        ForiegnBonds:14,
+        Commodities:12,
+        RealEstate:0,
+        TBills:0,
+        Alternative:0
+
+    },
+    {
+        Tolerance:3,
+        NigerianStocks:26,
+        ForeignStocks:6,
+        TechStocks:4,
+        EmergingStocks:7,
+        NigerianBonds:35,
+        ForiegnBonds:10,
+        Commodities:12,
+        RealEstate:0,
+        TBills:0,
+        Alternative:0
+
+    },
+    {
+        Tolerance:4,
+        NigerianStocks:29,
+        ForeignStocks:7,
+        TechStocks:5,
+        EmergingStocks:6,
+        NigerianBonds:35,
+        ForiegnBonds:6,
+        Commodities:12,
+        RealEstate:0,
+        TBills:0,
+        Alternative:0
+
+    },
+     {
+        Tolerance:5,
+        NigerianStocks:31,
+        ForeignStocks:8,
+        TechStocks:6,
+        EmergingStocks:5,
+        NigerianBonds:35,
+        ForiegnBonds:3,
+        Commodities:12,
+        RealEstate:0,
+        TBills:0,
+        Alternative:0
+
+    },
+    {
+        Tolerance:6,
+        NigerianStocks:35,
+        ForeignStocks:8,
+        TechStocks:7,
+        EmergingStocks:3,
+        NigerianBonds:35,
+        ForiegnBonds:12,
+        Commodities:0,
+        RealEstate:0,
+        TBills:0,
+        Alternative:0
+
+    },
+     {
+        Tolerance:7,
+        NigerianStocks:45,
+        ForeignStocks:13,
+        TechStocks:12,
+        EmergingStocks:7,
+        NigerianBonds:23,
+        ForiegnBonds:0,
+        Commodities:0,
+        RealEstate:0,
+        TBills:0,
+        Alternative:0
+
+    },
+    {
+        Tolerance:8,
+        NigerianStocks:45,
+        ForeignStocks:15,
+        TechStocks:15,
+        EmergingStocks:9,
+        NigerianBonds:16,
+        ForiegnBonds:0,
+        Commodities:0,
+        RealEstate:0,
+        TBills:0,
+        Alternative:0
+
+    },
+    {
+        Tolerance:9,
+        NigerianStocks:45,
+        ForeignStocks:18,
+        TechStocks:17,
+        EmergingStocks:11,
+        NigerianBonds:9,
+        ForiegnBonds:0,
+        Commodities:0,
+        RealEstate:0,
+        TBills:0,
+        Alternative:0
+
+    },
+    {
+        Tolerance:10,
+        NigerianStocks:45,
+        ForeignStocks:20,
+        TechStocks:19,
+        EmergingStocks:14,
+        NigerianBonds:2,
+        ForiegnBonds:0,
+        Commodities:0,
+        RealEstate:0,
+        TBills:0,
+        Alternative:0
+
+    }
+]
+
+module.exports = portfolio
