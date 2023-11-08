@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const portfolio = require('./Data')
 require('dotenv').config()
 
+const API_KEY = process.env.MONGO_URI
 
 
 const DataSchema = mongoose.Schema({
@@ -37,9 +38,10 @@ app.get('/',async(req,res)=>{
 })
 
 
+
 const Start = async ()=>{
     try{
-        await mongoose.connect(process.env.MONGO_URI)
+        await mongoose.connect(API_KEY)
         app.listen(3000, console.log('server is listening on port 3000...'))
         await DataModel.create(portfolio)
     }
